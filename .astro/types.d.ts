@@ -184,6 +184,20 @@ declare module 'astro:content' {
 
 	type ContentEntryMap = {
 		"posts": {
+"arts.md": {
+	id: "arts.md";
+  slug: "Arts-Collaboratory";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"bajo_sospecha.mdx": {
+	id: "bajo_sospecha.mdx";
+  slug: "astro-islands";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".mdx"] };
 "content-collections.mdx": {
 	id: "content-collections.mdx";
   slug: "content-collections";
@@ -191,48 +205,41 @@ declare module 'astro:content' {
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".mdx"] };
-"getting-started.mdx": {
-	id: "getting-started.mdx";
-  slug: "Cypherplatxs";
-  body: string;
-  collection: "posts";
-  data: InferEntrySchema<"posts">
-} & { render(): Render[".mdx"] };
-"islands.mdx": {
-	id: "islands.mdx";
-  slug: "astro-islands";
-  body: string;
-  collection: "posts";
-  data: InferEntrySchema<"posts">
-} & { render(): Render[".mdx"] };
-"markdown-style-guide.md": {
-	id: "markdown-style-guide.md";
-  slug: "markdown-style-guide";
-  body: string;
-  collection: "posts";
-  data: InferEntrySchema<"posts">
-} & { render(): Render[".md"] };
-"rss.mdx": {
-	id: "rss.mdx";
-  slug: "power to commons";
-  body: string;
-  collection: "posts";
-  data: InferEntrySchema<"posts">
-} & { render(): Render[".mdx"] };
-"second-post.md": {
-	id: "second-post.md";
-  slug: "Arts-Collaboratory";
-  body: string;
-  collection: "posts";
-  data: InferEntrySchema<"posts">
-} & { render(): Render[".md"] };
-"tailwind typography.md": {
-	id: "tailwind typography.md";
+"curating.md": {
+	id: "curating.md";
   slug: "Curating commons well being";
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
+"cypherplatxs.mdx": {
+	id: "cypherplatxs.mdx";
+  slug: "Cypherplatxs";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".mdx"] };
+"platohedro.mdx": {
+	id: "platohedro.mdx";
+  slug: "platohedro";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".mdx"] };
+"platoteca.md": {
+	id: "platoteca.md";
+  slug: "platoteca";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".md"] };
+"power to commons.mdx": {
+	id: "power to commons.mdx";
+  slug: "power to commons";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".mdx"] };
 "third-post.md": {
 	id: "third-post.md";
   slug: "third-post";
@@ -240,13 +247,6 @@ declare module 'astro:content' {
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
-"why-astro.mdx": {
-	id: "why-astro.mdx";
-  slug: "why-astro";
-  body: string;
-  collection: "posts";
-  data: InferEntrySchema<"posts">
-} & { render(): Render[".mdx"] };
 };
 
 	};
