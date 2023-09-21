@@ -34,7 +34,7 @@ p {
 }
 
 .postcard-content {
-    @apply p-4 text-left flex-grow text-neutral-50;
+    @apply p-4 text-left flex-grow text-black;
     position: absolute;
     bottom: 0;
     left: 0;
@@ -46,7 +46,7 @@ p {
 }
 
 .dark .postcard-article-special .postcard-content {
-    @apply text-white;
+    @apply text-black;
 }
 
 .postcard-date {
@@ -112,7 +112,7 @@ p {
     .postcard-article-special .postcard-title,
     .postcard-article-special .postcard-description,
     .postcard-article-special .postcard-description-special {
-      color: white;
+      color: black;
     }
 }
 

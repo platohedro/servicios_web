@@ -184,13 +184,6 @@ declare module 'astro:content' {
 
 	type ContentEntryMap = {
 		"posts": {
-"aliases.mdx": {
-	id: "aliases.mdx";
-  slug: "aliases";
-  body: string;
-  collection: "posts";
-  data: InferEntrySchema<"posts">
-} & { render(): Render[".mdx"] };
 "content-collections.mdx": {
 	id: "content-collections.mdx";
   slug: "content-collections";
@@ -198,37 +191,9 @@ declare module 'astro:content' {
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".mdx"] };
-"content.mdx": {
-	id: "content.mdx";
-  slug: "content-astro";
-  body: string;
-  collection: "posts";
-  data: InferEntrySchema<"posts">
-} & { render(): Render[".mdx"] };
-"contribute.mdx": {
-	id: "contribute.mdx";
-  slug: "contribute-to-astro";
-  body: string;
-  collection: "posts";
-  data: InferEntrySchema<"posts">
-} & { render(): Render[".mdx"] };
-"editor-setup.mdx": {
-	id: "editor-setup.mdx";
-  slug: "editor-setup";
-  body: string;
-  collection: "posts";
-  data: InferEntrySchema<"posts">
-} & { render(): Render[".mdx"] };
-"first-post.md": {
-	id: "first-post.md";
-  slug: "first-post";
-  body: string;
-  collection: "posts";
-  data: InferEntrySchema<"posts">
-} & { render(): Render[".md"] };
 "getting-started.mdx": {
 	id: "getting-started.mdx";
-  slug: "getting-started";
+  slug: "Cypherplatxs";
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
@@ -249,21 +214,21 @@ declare module 'astro:content' {
 } & { render(): Render[".md"] };
 "rss.mdx": {
 	id: "rss.mdx";
-  slug: "add-an-rss-feed";
+  slug: "power to commons";
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".mdx"] };
 "second-post.md": {
 	id: "second-post.md";
-  slug: "second-post";
+  slug: "Arts-Collaboratory";
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
 "tailwind typography.md": {
 	id: "tailwind typography.md";
-  slug: "tailwind-typography";
+  slug: "Curating commons well being";
   body: string;
   collection: "posts";
   data: InferEntrySchema<"posts">
@@ -275,13 +240,6 @@ declare module 'astro:content' {
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
-"using-mdx.mdx": {
-	id: "using-mdx.mdx";
-  slug: "using-mdx";
-  body: string;
-  collection: "posts";
-  data: InferEntrySchema<"posts">
-} & { render(): Render[".mdx"] };
 "why-astro.mdx": {
 	id: "why-astro.mdx";
   slug: "why-astro";
