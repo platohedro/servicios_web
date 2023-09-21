@@ -198,13 +198,6 @@ declare module 'astro:content' {
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".mdx"] };
-"content-collections.mdx": {
-	id: "content-collections.mdx";
-  slug: "content-collections";
-  body: string;
-  collection: "posts";
-  data: InferEntrySchema<"posts">
-} & { render(): Render[".mdx"] };
 "curating.md": {
 	id: "curating.md";
   slug: "Curating commons well being";
@@ -233,6 +226,13 @@ declare module 'astro:content' {
   collection: "posts";
   data: InferEntrySchema<"posts">
 } & { render(): Render[".md"] };
+"podcast.mdx": {
+	id: "podcast.mdx";
+  slug: "podcast-platohedro";
+  body: string;
+  collection: "posts";
+  data: InferEntrySchema<"posts">
+} & { render(): Render[".mdx"] };
 "power to commons.mdx": {
 	id: "power to commons.mdx";
   slug: "power to commons";
