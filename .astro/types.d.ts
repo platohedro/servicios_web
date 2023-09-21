@@ -189,64 +189,57 @@ declare module 'astro:content' {
   slug: "Arts-Collaboratory";
   body: string;
   collection: "posts";
-  data: InferEntrySchema<"posts">
+  data: any
 } & { render(): Render[".md"] };
 "bajo_sospecha.mdx": {
 	id: "bajo_sospecha.mdx";
   slug: "astro-islands";
   body: string;
   collection: "posts";
-  data: InferEntrySchema<"posts">
+  data: any
 } & { render(): Render[".mdx"] };
 "curating.md": {
 	id: "curating.md";
   slug: "Curating commons well being";
   body: string;
   collection: "posts";
-  data: InferEntrySchema<"posts">
+  data: any
 } & { render(): Render[".md"] };
 "cypherplatxs.mdx": {
 	id: "cypherplatxs.mdx";
   slug: "Cypherplatxs";
   body: string;
   collection: "posts";
-  data: InferEntrySchema<"posts">
+  data: any
 } & { render(): Render[".mdx"] };
 "platohedro.mdx": {
 	id: "platohedro.mdx";
   slug: "platohedro";
   body: string;
   collection: "posts";
-  data: InferEntrySchema<"posts">
+  data: any
 } & { render(): Render[".mdx"] };
 "platoteca.md": {
 	id: "platoteca.md";
   slug: "platoteca";
   body: string;
   collection: "posts";
-  data: InferEntrySchema<"posts">
+  data: any
 } & { render(): Render[".md"] };
 "podcast.mdx": {
 	id: "podcast.mdx";
   slug: "podcast-platohedro";
   body: string;
   collection: "posts";
-  data: InferEntrySchema<"posts">
+  data: any
 } & { render(): Render[".mdx"] };
 "power to commons.mdx": {
 	id: "power to commons.mdx";
   slug: "power to commons";
   body: string;
   collection: "posts";
-  data: InferEntrySchema<"posts">
+  data: any
 } & { render(): Render[".mdx"] };
-"third-post.md": {
-	id: "third-post.md";
-  slug: "third-post";
-  body: string;
-  collection: "posts";
-  data: InferEntrySchema<"posts">
-} & { render(): Render[".md"] };
 };
 
 	};
@@ -257,5 +250,5 @@ declare module 'astro:content' {
 
 	type AnyEntryMap = ContentEntryMap & DataEntryMap;
 
-	type ContentConfig = typeof import("../src/content/config");
+	type ContentConfig = never;
 }
